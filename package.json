@@ -26,6 +26,6 @@
   },
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "git+https://github.com/IsleOf/human-browser.git"
   }
 }
