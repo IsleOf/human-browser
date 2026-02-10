@@ -1,0 +1,31 @@
+{
+  "name": "human-browser",
+  "version": "1.0.0",
+  "description": "Drop-in human behavior layer for Playwright. Bezier-curve mouse movement with Fitts's Law, natural typing, and 14-vector browser fingerprint stealth. Defeats DataDome, hCaptcha, and similar bot detection.",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "node -e \"const hb = require('./src'); console.log('Exports:', Object.keys(hb).join(', '));\""
+  },
+  "keywords": [
+    "playwright",
+    "stealth",
+    "human-mouse",
+    "anti-detection",
+    "browser-automation",
+    "bezier-curve",
+    "fingerprint",
+    "rebrowser",
+    "bot-detection",
+    "datadome",
+    "hcaptcha"
+  ],
+  "author": "IsleOf",
+  "license": "MIT",
+  "peerDependencies": {
+    "rebrowser-playwright-core": ">=1.48.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  }
+}
